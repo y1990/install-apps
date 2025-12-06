@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <!-- 指向IPA文件的URL -->
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>sy_erp_app_sim.ipa</string> <!-- 修改为你的IPA链接 -->
+                </dict>
+                <!-- 可选: 应用图标 -->
+                <dict>
+                    <key>kind</key>
+                    <string>display-image</string>
+                    <key>url</key>
+                    <string>https://yourdomain.com/ipa/icon.png</string> <!-- 修改为你的图标链接 -->
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.sy.erp.sim</string> <!-- 修改为你的App Bundle ID -->
+                <key>bundle-version</key>
+                <string>1.7.6</string> <!-- 修改为你的App版本号 -->
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>ERP-预生产</string> <!-- 修改为你的App名称 -->
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
